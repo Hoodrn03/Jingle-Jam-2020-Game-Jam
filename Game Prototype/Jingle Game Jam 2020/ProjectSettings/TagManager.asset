@@ -5,6 +5,9 @@ TagManager:
   serializedVersion: 2
   tags:
   - Game Manager
+  - Talk Screen
+  - User Interface
+  - Player Spawn Point
   layers:
   - Default
   - TransparentFX

@@ -2,13 +2,22 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+/// <summary>
+/// This will allow for the game to manage menus uopn startup 
+/// </summary>
 public class Main_Menu_Navigation : MonoBehaviour
 {
     #region Data Members
 
+    /// <summary>
+    /// The Main menu object for the game.
+    /// </summary>
     [SerializeField]
     GameObject m_MainMenu;
 
+    /// <summary>
+    /// This is the options menu for the game.
+    /// </summary>
     [SerializeField]
     GameObject m_OptionsMenu;
 
