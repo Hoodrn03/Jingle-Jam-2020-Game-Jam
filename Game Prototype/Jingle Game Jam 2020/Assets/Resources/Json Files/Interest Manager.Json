@@ -1,0 +1,22 @@
+{
+  "interests": [
+    {
+      "interestName": "Football",
+      "clues": [
+        "X Is pretty Fit",
+        "X is always around very fit people",
+        "Hey, I heard 'X' wasn't able to get tickets to the game next week, they looked really disapointed.",
+        "I heard X Joined a Football Club so he can start competing."
+      ]
+    },
+    {
+      "interestName": "Soccer",
+      "clues": [
+        "It looks like X never Skips leg day",
+        "X loves to play sports",
+        "last time i played a soccer videogame agaisnt X he was really good",
+        "X has never missed a single Soccer match in his life"
+      ]
+    }
+  ]
+}
