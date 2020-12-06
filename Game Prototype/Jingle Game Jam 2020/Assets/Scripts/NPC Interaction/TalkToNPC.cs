@@ -43,6 +43,11 @@ public class TalkToNPC : MonoBehaviour
         {
             m_bPlayerWithinRange = false;
         }
+
+        if (m_TalkScreen.activeSelf == true)
+        {
+            m_TalkScreen.SetActive(false);
+        }
     }
 
     void Start()
@@ -83,8 +88,6 @@ public class TalkToNPC : MonoBehaviour
                 }
             }
         }
-
-        
     }
 
     #endregion

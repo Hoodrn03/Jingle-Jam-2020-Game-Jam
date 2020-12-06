@@ -1,0 +1,41 @@
+{
+  "gifts": [
+    {
+      "giftName": "Gift Basket",
+      "score": 2,
+      "interestInvolved": [ "None" ], 
+      "filePath": ""
+    },
+    {
+      "giftName": "Bar of Soap",
+      "score": 3,
+      "interestInvolved": [ "None" ],
+      "filePath": ""
+    },
+    {
+      "giftName": "A signed Football",
+      "score": 1,
+      "interestInvolved": [ "Football" ],
+      "filePath": "Sprites/Gifts/Signed Football"
+    },
+    {
+      "giftName": "A Football",
+      "score": 4,
+      "interestInvolved": [ "Football" ],
+      "filePath": "Sprites/Gifts/Normal Football"
+    },
+    {
+      "giftName": "Football Tickets",
+      "score": 2,
+      "interestInvolved": [ "Football" ],
+      "filePath": "Sprites/Gifts/Football Tickets"
+    },
+    {
+      "giftName": "Football Jersey",
+      "score": 4,
+      "interestInvolved": [ "Football" ],
+      "filePath": "Sprites/Gifts/Football Jersey"
+    }
+
+  ]
+}
