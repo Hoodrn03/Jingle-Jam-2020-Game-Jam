@@ -1,0 +1,5 @@
+Made within unity by Ryan as lead programmer, with support by Jesus as project manager.
+Art created by Anna for environment and character art, Nany as lead artist and Valeria 
+as support artist. 
+
+To run the program simply run the Jingle Game Jam 2020.exe file. 

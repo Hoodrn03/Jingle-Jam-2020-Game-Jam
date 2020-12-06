@@ -28,6 +28,12 @@ ScriptsOnlyBuild:
     - UnityEditor.Tilemaps.TileDragAndDropManager
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
+    UnityEditor.Graphs.dll:
+    - UnityEditor.Graphs.AnimationBlendTree.Graph
+    - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.Graph
+    - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
+    - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
     - UnityEditor.TestTools.TestRunner.TestListCacheData
@@ -62,32 +68,40 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 61
       Script: {instanceID: 0}
+    - Class: 74
+      Script: {instanceID: 0}
     - Class: 81
+      Script: {instanceID: 0}
+    - Class: 91
+      Script: {instanceID: 0}
+    - Class: 95
       Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 11732}
+      Script: {instanceID: 11728}
     - Class: 114
-      Script: {instanceID: 11924}
+      Script: {instanceID: 11920}
     - Class: 114
-      Script: {instanceID: 11964}
+      Script: {instanceID: 11960}
     - Class: 114
-      Script: {instanceID: 12002}
+      Script: {instanceID: 11998}
     - Class: 114
-      Script: {instanceID: 12110}
+      Script: {instanceID: 12014}
     - Class: 114
-      Script: {instanceID: 12182}
+      Script: {instanceID: 12108}
+    - Class: 114
+      Script: {instanceID: 12180}
+    - Class: 114
+      Script: {instanceID: 12298}
     - Class: 114
       Script: {instanceID: 12300}
     - Class: 114
-      Script: {instanceID: 12302}
+      Script: {instanceID: 12416}
     - Class: 114
-      Script: {instanceID: 12418}
+      Script: {instanceID: 12436}
     - Class: 114
-      Script: {instanceID: 12438}
-    - Class: 114
-      Script: {instanceID: 12622}
+      Script: {instanceID: 12620}
     - Class: 114
       Script: {instanceID: 12694}
     - Class: 114
@@ -116,8 +130,6 @@ ScriptsOnlyBuild:
       Script: {instanceID: 13952}
     - Class: 114
       Script: {instanceID: 13992}
-    - Class: 114
-      Script: {instanceID: 35522}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -235,6 +247,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Main_Menu_Navigation
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Reload_Game
   - hash:
       serializedVersion: 2
       Hash: 7ab0e790220bdca831fdd886b339039d
@@ -385,6 +403,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
     className: TMP_Asset
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Walking_Anim
   - hash:
       serializedVersion: 2
       Hash: 040dd48e3a027d5424519a5fa2009df4
@@ -679,14 +703,8 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: Reload_Game
   platform: 5
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
-  playerPath: D:/Github Documents/Jingle-Jam-2020-Game-Jam/Current Build v0.1.1/Jingle
+  playerPath: D:/Github Documents/Jingle-Jam-2020-Game-Jam/Current Build v0.1.3/Jingle
     Game Jam 2020.exe
