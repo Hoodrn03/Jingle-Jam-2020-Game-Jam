@@ -11,7 +11,7 @@ public class Four_Directional_Movement : MonoBehaviour
     /// This will be the intended movement speed for the player object within the game. 
     /// </summary>
     [SerializeField]
-    [Range(0.001f, 1f)]
+    [Range(0.001f, 10f)]
     float m_fMovementSpeed = 0.25f;
 
     [SerializeField]
@@ -30,11 +30,11 @@ public class Four_Directional_Movement : MonoBehaviour
 
         // Move Left and right.  
 
-        l_fX = Input.GetAxis("Horizontal") * m_fMovementSpeed;
+        l_fX = Input.GetAxis("Horizontal") * m_fMovementSpeed * Time.deltaTime;
 
         // Move Up and Down. 
 
-        l_fY = Input.GetAxis("Vertical") * m_fMovementSpeed;
+        l_fY = Input.GetAxis("Vertical") * m_fMovementSpeed * Time.deltaTime;
 
         // Apply movement.
 

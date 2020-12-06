@@ -9,6 +9,9 @@ public class TalkToNPC : MonoBehaviour
     string m_sAssignedClue = (string)("Test");
 
     [SerializeField]
+    Sprite m_NPCSprite;
+
+    [SerializeField]
     bool m_bPlayerWithinRange = false;
 
     [SerializeField]
@@ -24,6 +27,11 @@ public class TalkToNPC : MonoBehaviour
         m_sAssignedClue = newClue;
     }
 
+    public void m_AssignSprite(Sprite newSprite)
+    {
+        m_NPCSprite = newSprite; 
+    }
+
     public void m_AssignTalkScreen(GameObject talkScreen)
     {
         m_TalkScreen = talkScreen; 
@@ -33,7 +41,9 @@ public class TalkToNPC : MonoBehaviour
     {
         if(hit.gameObject.tag == "Player")
         {
-            m_bPlayerWithinRange = true; 
+            m_bPlayerWithinRange = true;
+
+            m_TalkScreen.GetComponentInChildren<Select_Player_Sprite>().m_SelectSprite(); 
         }
     }
 

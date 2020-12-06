@@ -35,6 +35,9 @@ public class Game_Time_Management : MonoBehaviour
     [Range(1, 10)]
     float m_fTimeTillUpdate = 3;
 
+    [SerializeField]
+    GameObject m_EndScreen;
+
     #endregion
 
     #region Member Functions 
@@ -71,6 +74,11 @@ public class Game_Time_Management : MonoBehaviour
     public void m_NextDay()
     {
         m_CurrentDay++;
+
+        if(m_CurrentDay >= m_INumberOfDays)
+        {
+            m_EndScreen.GetComponent<Get_Score>().m_ShowEndScreen(); 
+        }
     }
 
     #endregion

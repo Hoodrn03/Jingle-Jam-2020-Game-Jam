@@ -20,6 +20,8 @@ public class Current_Location : MonoBehaviour
     [SerializeField]
     MapData m_CurrentLocation;
 
+    string m_sCurrentLocation; 
+
     [SerializeField]
     List<MapData> m_Maps;
 
@@ -45,8 +47,13 @@ public class Current_Location : MonoBehaviour
     [SerializeField]
     GameObject m_TempMap;
 
+    [SerializeField]
+    GameObject m_BarPrefab;
+
     public void m_LoadLevel(string mapName)
     {
+        m_sCurrentLocation = mapName; 
+
         for (int i = 0; i < m_Maps.Count; i++)
         {
             if(m_Maps[i].l_sMapName == mapName)
@@ -133,6 +140,10 @@ public class Current_Location : MonoBehaviour
 
             switch (l_TempData.l_sMapName)
             {
+                case "Bar":
+                    l_TempData.l_MapPrefab = m_BarPrefab; 
+                    break;
+
                 default:
                     l_TempData.l_MapPrefab = m_TempMap; 
                     break;

@@ -131,6 +131,9 @@ public class Gift_Loader : MonoBehaviour
 
     public void m_SpawnItems()
     {
+
+        m_GiftSpawnpoints.Clear();
+
         m_GiftSpawnpoints.AddRange(GameObject.FindGameObjectsWithTag("Gift Spawn Point")); 
 
         if (m_GiftSpawnpoints.Count > 0)

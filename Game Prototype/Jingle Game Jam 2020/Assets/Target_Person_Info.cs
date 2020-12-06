@@ -16,7 +16,7 @@ public class Target_Person_Info : MonoBehaviour
     string m_TargetPersonInterest;
 
     [SerializeField]
-    int m_iScore;
+    public int m_iScore;
 
     [Header("Text Elements")]
 
@@ -50,6 +50,12 @@ public class Target_Person_Info : MonoBehaviour
 
         m_TargetPersonInterest = interest;
     }
+
+    public void m_ResetScore()
+    {
+        m_iScore = 0; 
+    }
+    
 
     public void m_UpdateText()
     {

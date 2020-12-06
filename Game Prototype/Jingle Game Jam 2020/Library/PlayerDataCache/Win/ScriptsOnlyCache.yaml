@@ -4,6 +4,7 @@ ScriptsOnlyBuild:
     - Current_Location
     - Four_Directional_Movement
     - Game_Time_Management
+    - Get_Score
     - Gift_Info
     - Gift_Loader
     - Interface_Linker
@@ -64,51 +65,53 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 11728}
+      Script: {instanceID: 11746}
     - Class: 114
-      Script: {instanceID: 11920}
+      Script: {instanceID: 11938}
     - Class: 114
-      Script: {instanceID: 11960}
+      Script: {instanceID: 11978}
     - Class: 114
-      Script: {instanceID: 11998}
+      Script: {instanceID: 12016}
     - Class: 114
-      Script: {instanceID: 12106}
+      Script: {instanceID: 12124}
     - Class: 114
-      Script: {instanceID: 12178}
+      Script: {instanceID: 12196}
     - Class: 114
-      Script: {instanceID: 12296}
+      Script: {instanceID: 12314}
     - Class: 114
-      Script: {instanceID: 12298}
+      Script: {instanceID: 12316}
     - Class: 114
-      Script: {instanceID: 12414}
+      Script: {instanceID: 12432}
     - Class: 114
-      Script: {instanceID: 12434}
+      Script: {instanceID: 12452}
     - Class: 114
-      Script: {instanceID: 12618}
+      Script: {instanceID: 12636}
     - Class: 114
-      Script: {instanceID: 12690}
+      Script: {instanceID: 12708}
     - Class: 114
-      Script: {instanceID: 12906}
+      Script: {instanceID: 12924}
     - Class: 114
-      Script: {instanceID: 12922}
+      Script: {instanceID: 12940}
     - Class: 114
-      Script: {instanceID: 13026}
+      Script: {instanceID: 13044}
     - Class: 114
-      Script: {instanceID: 13492}
+      Script: {instanceID: 13510}
     - Class: 114
-      Script: {instanceID: 13498}
+      Script: {instanceID: 13516}
     - Class: 114
-      Script: {instanceID: 13838}
+      Script: {instanceID: 13798}
     - Class: 114
-      Script: {instanceID: 13880}
+      Script: {instanceID: 13858}
     - Class: 114
       Script: {instanceID: 13900}
     - Class: 114
-      Script: {instanceID: 13942}
+      Script: {instanceID: 13920}
     - Class: 114
-      Script: {instanceID: 13982}
+      Script: {instanceID: 13962}
     - Class: 114
-      Script: {instanceID: 38268}
+      Script: {instanceID: 14002}
+    - Class: 114
+      Script: {instanceID: 15556}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -324,7 +327,7 @@ ScriptsOnlyBuild:
     className: Shadow
   - hash:
       serializedVersion: 2
-      Hash: 0df01752627de383e94fb2c9c91d97b3
+      Hash: 9031614fe80d3987cb3d712fb765526d
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Game_Time_Management
@@ -534,6 +537,12 @@ ScriptsOnlyBuild:
     className: TMP_StyleSheet
   - hash:
       serializedVersion: 2
+      Hash: 3e2173206ce99979cad9ab495d57eb39
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Current_Location
+  - hash:
+      serializedVersion: 2
       Hash: a01d7cd1372d550f912f7121e6ebe739
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
@@ -654,10 +663,10 @@ ScriptsOnlyBuild:
     className: PlayableTrack
   - hash:
       serializedVersion: 2
-      Hash: 3e2173206ce99979cad9ab495d57eb39
+      Hash: 8a54a4b61df98b425e611a9bfbd7f7ff
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
-    className: Current_Location
+    className: Get_Score
   platform: 5
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
