@@ -1,41 +1,341 @@
 {
   "gifts": [
     {
-      "giftName": "Gift Basket",
-      "score": 2,
-      "interestInvolved": [ "None" ], 
-      "filePath": ""
+      "giftName": "Gin Advent Calendar",
+      "score": 1,
+      "interestInvolved": [ "Drinking" ],
+      "filePath": "Sprites/Gifts/Advent Calendar"
     },
     {
-      "giftName": "Bar of Soap",
+      "giftName": "Backpack",
       "score": 3,
       "interestInvolved": [ "None" ],
-      "filePath": ""
+      "filePath": "Sprites/Gifts/Backpack"
     },
     {
-      "giftName": "A signed Football",
+      "giftName": "Bluetooth Speaker",
       "score": 1,
-      "interestInvolved": [ "Football" ],
-      "filePath": "Sprites/Gifts/Signed Football"
+      "interestInvolved": [ "Music" ],
+      "filePath": "Sprites/Gifts/Bluetooth Speaker"
     },
     {
-      "giftName": "A Football",
+      "giftName": "Broken Guitar",
+      "score": 5,
+      "interestInvolved": [ "Music" ],
+      "filePath": "Sprites/Gifts/Broken Guitar"
+    },
+    {
+      "giftName": "Buffet Coupons",
+      "score": 1,
+      "interestInvolved": [ "Food" ],
+      "filePath": "Sprites/Gifts/Buffet Coupon"
+    },
+    {
+      "giftName": "Chocolate",
+      "score": 3,
+      "interestInvolved": [ "None" ],
+      "filePath": "Sprites/Gifts/Chocolate"
+    },
+    {
+      "giftName": "Cleaning Towel",
+      "score": 3,
+      "interestInvolved": [ "Science", "Pets" ],
+      "filePath": "Sprites/Gifts/Cleaning Towel"
+
+    },
+    {
+      "giftName": "Coffee Mug",
       "score": 4,
-      "interestInvolved": [ "Football" ],
-      "filePath": "Sprites/Gifts/Normal Football"
+      "interestInvolved": [ "None" ],
+      "filePath": "Sprites/Gifts/Coffee Mug"
+
+    },
+    {
+      "giftName": "Cookies",
+      "score": 2,
+      "interestInvolved": [ "None" ],
+      "filePath": "Sprites/Gifts/Cookies"
+
+    },
+    {
+      "giftName": "Crayons",
+      "score": 5,
+      "interestInvolved": [ "Art", "SciFi" ],
+      "filePath": "Sprites/Gifts/Crayons"
+
+    },
+    {
+      "giftName": "Deluxe Videogame",
+      "score": 1,
+      "interestInvolved": [ "Video Games" ],
+      "filePath": "Sprites/Gifts/Deluxe Videogame"
+
+    },
+    {
+      "giftName": "Drawing Monitor/Tablet",
+      "score": 1,
+      "interestInvolved": [ "Art" ],
+      "filePath": "Sprites/Gifts/Drawing Monitor_tablets"
+    },
+    {
+      "giftName": "Drawing Notebook",
+      "score": 3,
+      "interestInvolved": [ "Art" ],
+      "filePath": "Sprites/Gifts/Drawing Notebook"
+    },
+    {
+      "giftName": "Dried out Paint Brushes",
+      "score": 5,
+      "interestInvolved": [ "Art" ],
+      "filePath": "Sprites/Gifts/Dried out paint"
+    },
+    {
+      "giftName": "Dumbbells",
+      "score": 4,
+      "interestInvolved": [ "Science", "Exercise", "Science" ],
+      "filePath": "Sprites/Gifts/Dumbbells"
+    },
+    {
+      "giftName": "Restaurant Coupon",
+      "score": 3,
+      "interestInvolved": [ "Food" ],
+      "filePath": "Sprites/Gifts/Favorite Restaurant Coupon"
+    },
+    {
+      "giftName": "Figurines With faction paint",
+      "score": 1,
+      "interestInvolved": [ "Figurine Painting" ],
+      "filePath": "Sprites/Gifts/Figurines with Faction Paint"
+    },
+    {
+      "giftName": "Figurines",
+      "score": 2,
+      "interestInvolved": [ "Figurines Painting" ],
+      "filePath": "Sprites/Gifts/figurines"
+    },
+    {
+      "giftName": "Sport Jersey",
+      "score": 4,
+      "interestInvolved": [ "Football", "Soccer" ],
+      "filePath": "Sprites/Gifts/Football Jersey"
     },
     {
       "giftName": "Football Tickets",
       "score": 2,
       "interestInvolved": [ "Football" ],
-      "filePath": "Sprites/Gifts/Football Tickets"
+      "filePath": "Sprites/Gifts/Football tickets"
     },
     {
-      "giftName": "Football Jersey",
+      "giftName": "Gift basket",
+      "score": 2,
+      "interestInvolved": [ "None" ],
+      "filePath": "Sprites/Gifts/Gift basket"
+    },
+    {
+      "giftName": "Golf Club",
+      "score": 5,
+      "interestInvolved": [ "Football" ],
+      "filePath": "Sprites/Gifts/Golf Club"
+    },
+    {
+      "giftName": "Groceries Gift Card",
+      "score": 4,
+      "interestInvolved": [ "None" ],
+      "filePath": "Sprites/Gifts/Groceries Gift Card"
+    },
+    {
+      "giftName": "1 Year Gym Membership",
+      "score": 1,
+      "interestInvolved": [ "Exercise" ],
+      "filePath": "Sprites/Gifts/Gym Membership"
+    },
+    {
+      "giftName": "Hair Comb",
+      "score": 4,
+      "interestInvolved": [ "None" ],
+      "filePath": "Sprites/Gifts/Hair Comb"
+    },
+    {
+      "giftName": "Just Money",
+      "score": 2,
+      "interestInvolved": [ "None" ],
+      "filePath": "Sprites/Gifts/Just Money"
+    },
+    {
+      "giftName": "Karaoke System",
+      "score": 3,
+      "interestInvolved": [ "Music" ],
+      "filePath": "Sprites/Gifts/Karaoke System"
+    },
+    {
+      "giftName": "Keyboard and Mouse",
+      "score": 2,
+      "interestInvolved": [ "Video Games" ],
+      "filePath": "Sprites/Gifts/Keyboard and Mouse"
+    },
+    {
+      "giftName": "Limited Edition Poster",
+      "score": 3,
+      "interestInvolved": [ "Soccer", "Video Games", "SciFi" ],
+      "filePath": "Sprites/Gifts/Limited Edition Poster"
+    },
+    {
+      "giftName": "New Brushes",
+      "score": 4,
+      "interestInvolved": [ "Figurine Painting" ],
+      "filePath": "Sprites/Gifts/new brushes"
+    },
+    {
+      "giftName": "Normal Football",
       "score": 4,
       "interestInvolved": [ "Football" ],
-      "filePath": "Sprites/Gifts/Football Jersey"
+      "filePath": "Sprites/Gifts/Normal Football"
+    },
+    {
+      "giftName": "Oil Paints",
+      "score": 3,
+      "interestInvolved": [ "Art", "Figurine Painting" ],
+      "filePath": "Sprites/Gifts/Oil Paints"
+    },
+    {
+      "giftName": "Pet Food",
+      "score": 4,
+      "interestInvolved": [ "Pet" ],
+      "filePath": "Sprites/Gifts/Pet Food"
+    },
+    {
+      "giftName": "Pet Toy",
+      "score": 1,
+      "interestInvolved": [ "Pet" ],
+      "filePath": "Sprites/Gifts/Pet Toy"
+    },
+    {
+      "giftName": "Pint",
+      "score": 2,
+      "interestInvolved": [ "Drinking" ],
+      "filePath": "Sprites/Gifts/Pint"
+    },
+    {
+      "giftName": "Pizza",
+      "score": 3,
+      "interestInvolved": [ "Exercise", "Food" ],
+      "filePath": "Sprites/Gifts/Pizza"
+    },
+    {
+      "giftName": "Protein Shake",
+      "score": 3,
+      "interestInvolved": [ "Exercise" ],
+      "filePath": "Sprites/Gifts/Protein Shake"
+    },
+    {
+      "giftName": "Pull Up Bar",
+      "score": 3,
+      "interestInvolved": [ "Exercise", "Videogames" ],
+      "filePath": "Sprites/Gifts/Pull Up Bar"
+    },
+    {
+      "giftName": "Random Album",
+      "score": 4,
+      "interestInvolved": [ "Music" ],
+      "filePath": "Sprites/Gifts/random album"
+    },
+    {
+      "giftName": "Record player",
+      "score": 2,
+      "interestInvolved": [ "Music" ],
+      "filePath": "Sprites/Gifts/Record player"
+    },
+    {
+      "giftName": "a Round at the Pub",
+      "score": 3,
+      "interestInvolved": [ "Drinking" ],
+      "filePath": "Sprites/Gifts/Round at Pub"
+    },
+    {
+      "giftName": "Science Utensils",
+      "score": 1,
+      "interestInvolved": [ "Science" ],
+      "filePath": "Sprites/Gifts/Science Utensils"
+    },
+    {
+      "giftName": "SciFi Movie With Directors Cut",
+      "score": 3,
+      "interestInvolved": [ "SciFi" ],
+      "filePath": "Sprites/Gifts/SciFi Movie"
+    },
+    {
+      "giftName": "Clothing",
+      "score": 3,
+      "interestInvolved": [ "None" ],
+      "filePath": "Sprites/Gifts/Shirt"
+    },
+    {
+      "giftName": "Shoes",
+      "score": 4,
+      "interestInvolved": [ "None" ],
+      "filePath": "Sprites/Gifts/Shoes"
+    },
+    {
+      "giftName": "Shot Glass",
+      "score": 4,
+      "interestInvolved": [ "Drinking" ],
+      "filePath": "Sprites/Gifts/Shot Glass"
+    },
+    {
+      "giftName": "Signed Bodega Book",
+      "score": 1,
+      "interestInvolved": [ "SciFi" ],
+      "filePath": "Sprites/Gifts/Signed Bodega Book"
+    },
+    {
+      "giftName": "Signed Football",
+      "score": 1,
+      "interestInvolved": [ "Football" ],
+      "filePath": "Sprites/Gifts/Signed Football"
+    },
+    {
+      "giftName": "Signed Soccer",
+      "score": 1,
+      "interestInvolved": [ "Soccer" ],
+      "filePath": "Sprites/Gifts/Signed Soccer Ball"
+    },
+    {
+      "giftName": "Bar of Soap",
+      "score": 3,
+      "interestInvolved": [ "None" ],
+      "filePath": "Sprites/Gifts/Soap"
+    },
+    {
+      "giftName": "Soccer Tickets",
+      "score": 3,
+      "interestInvolved": [ "Soccer" ],
+      "filePath": "Sprites/Gifts/Soccer Tickets"
+    },
+    {
+      "giftName": "Stickers",
+      "score": 3,
+      "interestInvolved": [ "None" ],
+      "filePath": "Sprites/Gifts/Stickers"
+    },
+    {
+      "giftName": "Sticky Notes",
+      "score": 4,
+      "interestInvolved": [ "None" ],
+      "filePath": "Sprites/Gifts/Sticky Notes"
+    },
+    {
+      "giftName": "Telescope",
+      "score": 3,
+      "interestInvolved": [ "Science", "SciFi" ],
+      "filePath": "Sprites/Gifts/Telescope"
+    },
+    {
+      "giftName": "Unfinished Experiment",
+      "score": 5,
+      "interestInvolved": [ "Science" ],
+      "filePath": "Sprites/Gifts/Unfinished Experiment"
     }
-
   ]
+
+
 }
