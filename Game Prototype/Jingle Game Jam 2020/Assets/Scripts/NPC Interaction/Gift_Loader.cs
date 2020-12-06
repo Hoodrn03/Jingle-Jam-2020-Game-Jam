@@ -127,14 +127,19 @@ public class Gift_Loader : MonoBehaviour
         m_LoadGiftsIntoGame(m_GiftJson);
 
         m_LoadSpritesIntoGame();
-        
-        if(m_GiftSpawnpoints.Count > 0)
+    }
+
+    public void m_SpawnItems()
+    {
+        m_GiftSpawnpoints.AddRange(GameObject.FindGameObjectsWithTag("Gift Spawn Point")); 
+
+        if (m_GiftSpawnpoints.Count > 0)
         {
             foreach (var spawnpoint in m_GiftSpawnpoints)
             {
                 GameObject l_NewGift = Instantiate(m_BasicGift, spawnpoint.transform);
 
-                Gift l_GeneratedGift =  m_GiftLoader.gifts[Random.Range(0, m_GiftLoader.gifts.Count - 1)]; 
+                Gift l_GeneratedGift = m_GiftLoader.gifts[Random.Range(0, m_GiftLoader.gifts.Count - 1)];
 
                 l_NewGift.transform.parent = gameObject.transform;
 
@@ -149,7 +154,39 @@ public class Gift_Loader : MonoBehaviour
                     l_NewGift.GetComponent<Gift_Info>().m_SetGiftSprite(l_GeneratedGift.loadedSprite);
                 }
 
-                m_GiftManager.Add(l_NewGift); 
+                m_GiftManager.Add(l_NewGift);
+            }
+        }
+    }
+
+    public void m_SpawnItems(GameObject parent)
+    {
+        m_GiftSpawnpoints.Clear(); 
+
+        m_GiftSpawnpoints.AddRange(GameObject.FindGameObjectsWithTag("Gift Spawn Point"));
+
+        if (m_GiftSpawnpoints.Count > 0)
+        {
+            foreach (var spawnpoint in m_GiftSpawnpoints)
+            {
+                GameObject l_NewGift = Instantiate(m_BasicGift, spawnpoint.transform);
+
+                Gift l_GeneratedGift = m_GiftLoader.gifts[Random.Range(0, m_GiftLoader.gifts.Count - 1)];
+
+                l_NewGift.transform.parent = parent.transform;
+
+                l_NewGift.name = l_GeneratedGift.giftName;
+
+                if (l_NewGift.GetComponent<Gift_Info>())
+                {
+                    l_NewGift.GetComponent<Gift_Info>().m_SetGiftInterest(l_GeneratedGift.interestInvolved);
+
+                    l_NewGift.GetComponent<Gift_Info>().m_SetGiftScore(l_GeneratedGift.score);
+
+                    l_NewGift.GetComponent<Gift_Info>().m_SetGiftSprite(l_GeneratedGift.loadedSprite);
+                }
+
+                m_GiftManager.Add(l_NewGift);
             }
         }
     }

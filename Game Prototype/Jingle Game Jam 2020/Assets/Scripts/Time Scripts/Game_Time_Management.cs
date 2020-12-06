@@ -7,7 +7,13 @@ public class Game_Time_Management : MonoBehaviour
     #region Data Members
 
     [SerializeField]
-    bool m_bDayStarted = false; 
+    bool m_bDayStarted = false;
+
+    [SerializeField]
+    int m_INumberOfDays = 7;
+
+    [SerializeField]
+    int m_CurrentDay = 0; 
 
     /// <summary>
     /// This will be used to track the time before the clock is ammended. 
@@ -27,22 +33,15 @@ public class Game_Time_Management : MonoBehaviour
     /// </summary>
     [SerializeField]
     [Range(1, 10)]
-    float m_fTimeTillUpdate = 1;
+    float m_fTimeTillUpdate = 3;
 
     #endregion
 
     #region Member Functions 
 
-    public void m_StartDay()
+    public void m_ResetTime()
     {
-        m_bDayStarted = true; 
-    }
-
-    private void Start()
-    {
-        // Setup variables and assign them to base values. 
-
-        m_bDayStarted = false;
+        m_CurrentDay = 0; 
     }
 
     private void Update()
@@ -62,6 +61,16 @@ public class Game_Time_Management : MonoBehaviour
                 
             }
         }
+    }
+
+    public int m_GetCurrentDay()
+    {
+        return m_INumberOfDays - m_CurrentDay; 
+    }
+
+    public void m_NextDay()
+    {
+        m_CurrentDay++;
     }
 
     #endregion

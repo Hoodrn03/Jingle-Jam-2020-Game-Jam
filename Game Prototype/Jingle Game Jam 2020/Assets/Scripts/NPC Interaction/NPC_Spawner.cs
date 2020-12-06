@@ -16,10 +16,10 @@ public class NPC_Spawner : MonoBehaviour
     [Header("Manager Objects")]
 
     [SerializeField]
-    GameObject m_InterfaceLinker; 
+    public GameObject m_InterfaceLinker; 
 
     [SerializeField]
-    GameObject m_NPCManager;
+    public GameObject m_NPCManager;
 
 
     void Start()
@@ -29,9 +29,14 @@ public class NPC_Spawner : MonoBehaviour
             m_InterfaceLinker = GameObject.FindGameObjectWithTag("User Interface"); 
         }
 
-        if(m_NpcSpawnPoints.Count > 0)
+        
+    }
+
+    public void m_SpawnNPCs()
+    {
+        if (m_NpcSpawnPoints.Count > 0)
         {
-            for(int i = 0; i < m_NpcSpawnPoints.Count; i++)
+            for (int i = 0; i < m_NpcSpawnPoints.Count; i++)
             {
                 GameObject l_NewNPC = Instantiate(m_PrefabNpc, m_NpcSpawnPoints[i].transform);
 
@@ -39,9 +44,9 @@ public class NPC_Spawner : MonoBehaviour
 
                 l_NewNPC.GetComponent<TalkToNPC>().m_AssignClue(m_NPCManager.GetComponent<NPC_Controller_Script>().m_GenerateClue());
 
-                l_NewNPC.GetComponent<TalkToNPC>().m_AssignTalkScreen(m_InterfaceLinker.GetComponent<Interface_Linker>().m_GetChatMenu()); 
+                l_NewNPC.GetComponent<TalkToNPC>().m_AssignTalkScreen(m_InterfaceLinker.GetComponent<Interface_Linker>().m_GetChatMenu());
 
-                l_NewNPC.transform.parent = gameObject.transform; 
+                l_NewNPC.transform.parent = gameObject.transform;
 
                 m_NPCList.Add(l_NewNPC);
             }

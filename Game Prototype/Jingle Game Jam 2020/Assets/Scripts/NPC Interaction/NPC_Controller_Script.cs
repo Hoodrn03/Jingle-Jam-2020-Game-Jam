@@ -220,7 +220,7 @@ public class NPC_Controller_Script : MonoBehaviour
 
     #region Target Person Management
 
-    void m_GenerateTaretPerson()
+    public void m_GenerateTaretPerson()
     {
         int l_iMaxNumber = 0;
 

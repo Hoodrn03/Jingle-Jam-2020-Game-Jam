@@ -8,7 +8,7 @@ public class Player_Spawn : MonoBehaviour
     GameObject m_PlayerSpawnPoint; 
 
     [SerializeField]
-    GameObject m_PlayerObj; 
+    public GameObject m_PlayerObj; 
 
     void Start()
     {
@@ -24,6 +24,16 @@ public class Player_Spawn : MonoBehaviour
         if (m_PlayerSpawnPoint != null)
         {
             m_PlayerObj.transform.position = m_PlayerSpawnPoint.transform.position; 
+        }
+    }
+
+    public void m_SpawnPlayer(GameObject objToSpawn)
+    {
+        m_PlayerSpawnPoint = GameObject.FindGameObjectWithTag("Player Spawn Point");
+
+        if (m_PlayerSpawnPoint != null)
+        {
+            objToSpawn.transform.position = m_PlayerSpawnPoint.transform.position;
         }
     }
 }

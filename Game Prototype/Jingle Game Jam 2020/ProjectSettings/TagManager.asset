@@ -10,6 +10,7 @@ TagManager:
   - Player Spawn Point
   - Inventory Element
   - Gift Spawn Point
+  - Gift Manager
   layers:
   - Default
   - TransparentFX

@@ -5,7 +5,15 @@ using UnityEngine;
 public class Pick_Up_Gift : MonoBehaviour
 {
     [SerializeField]
-    bool m_bPlayerTouchingGift = false; 
+    bool m_bPlayerTouchingGift = false;
+
+    [SerializeField]
+    GameObject m_GiftManager;
+
+    private void Start()
+    {
+        m_GiftManager = GameObject.FindGameObjectWithTag("Gift Manager"); 
+    }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -15,7 +23,7 @@ public class Pick_Up_Gift : MonoBehaviour
 
             m_bPlayerTouchingGift = true;
 
-            gameObject.GetComponentInParent<Gift_Loader>().m_AddGiftToInventory(gameObject); 
+            m_GiftManager.GetComponent<Gift_Loader>().m_AddGiftToInventory(gameObject); 
         }
     }
 }
