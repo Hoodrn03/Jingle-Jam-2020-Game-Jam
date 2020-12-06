@@ -5,6 +5,12 @@ TagManager:
   serializedVersion: 2
   tags:
   - Game Manager
+  - Talk Screen
+  - User Interface
+  - Player Spawn Point
+  - Inventory Element
+  - Gift Spawn Point
+  - Gift Manager
   layers:
   - Default
   - TransparentFX

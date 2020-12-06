@@ -8,7 +8,7 @@ using UnityEngine;
 /// This is a generated person who will be given to the player at the start of the game. 
 /// </summary>
 [System.Serializable]
-struct TargetPerson
+public struct TargetPerson
 {
     /// <summary>
     /// This is the first name of the person. 
@@ -56,7 +56,7 @@ class Names
 /// This is a possible interest a person could have. It will also a list of clues accociated with that interest. 
 /// </summary>
 [System.Serializable]
-class Interest
+public class Interest
 {
     /// <summary>
     /// The name of the interest. 
@@ -220,7 +220,7 @@ public class NPC_Controller_Script : MonoBehaviour
 
     #region Target Person Management
 
-    void m_GenerateTaretPerson()
+    public void m_GenerateTaretPerson()
     {
         int l_iMaxNumber = 0;
 
@@ -243,6 +243,8 @@ public class NPC_Controller_Script : MonoBehaviour
         m_TargetPerson.l_Interest = m_InteretsLoader.interests[Random.Range(0, l_iMaxNumber)];
     }
 
+    public TargetPerson m_GetTargetPerson() => m_TargetPerson; 
+
     #endregion
 
     // Start is called before the first frame update
@@ -258,6 +260,51 @@ public class NPC_Controller_Script : MonoBehaviour
 
         m_GenerateTaretPerson(); 
 
+    }
+
+    public string m_GenerateRandomName()
+    {
+
+        string l_sReturnName = ""; 
+
+        // Generate first name. 
+
+        l_sReturnName += m_NameLoader.firstNames[Random.Range(0, m_NameLoader.firstNames.Length)];
+
+        // Generate last name. 
+
+        l_sReturnName += " " + m_NameLoader.lastNames[Random.Range(0, m_NameLoader.lastNames.Length)];
+
+        return l_sReturnName;
+    }
+
+    public string m_GenerateClue()
+    {
+        string l_sReturnClue = "";
+
+        if(Random.Range(0, 100) <= 80)
+        {
+            // Tell Truth 
+
+            l_sReturnClue = m_TargetPerson.l_Interest.clues[Random.Range(0, m_TargetPerson.l_Interest.clues.Length)];
+
+            l_sReturnClue = l_sReturnClue.Replace("X", m_TargetPerson.l_sFirstName);
+
+        }
+        else
+        {
+            Debug.Log("Someone is lying"); 
+
+            // Tell Lie
+
+            int l_iRandomInterest = Random.Range(0, m_InteretsLoader.interests.Count - 1);
+
+            l_sReturnClue = m_InteretsLoader.interests[l_iRandomInterest].clues[m_InteretsLoader.interests[l_iRandomInterest].clues.Length - 1];
+
+            l_sReturnClue = l_sReturnClue.Replace("X", m_TargetPerson.l_sFirstName);
+        }
+
+        return l_sReturnClue; 
     }
 
     #endregion

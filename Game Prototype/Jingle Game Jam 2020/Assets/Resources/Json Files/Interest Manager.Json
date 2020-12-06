@@ -3,20 +3,112 @@
     {
       "interestName": "Football",
       "clues": [
-        "X Is pretty Fit",
-        "X is always around very fit people",
+
+        "X is pretty fit.",
+        "X is always around very fit people.",
         "Hey, I heard X wasn't able to get tickets to the game next week, they looked really disapointed.",
-        "I heard X Joined a Football Club so he can start competing."
+        "I heard X joined a Football Club so they could start competing."
       ]
     },
 
     {
       "interestName": "Soccer",
       "clues": [
-        "It looks like X never Skips leg day",
-        "X loves to play sports",
-        "last time i played a soccer videogame agaisnt X he was really good",
-        "X has never missed a single Soccer match in his life"
+        "It looks like X never Skips leg day.",
+        "X loves to play sports.",
+        "last time i played a soccer game agaisnt X they were really good.",
+        "X has never missed a single Soccer match in their life."
+      ]
+    },
+
+    {
+      "interestName": "Video Games",
+      "clues": [
+        "Every Wednesday X always goes shopping.",
+        "Last time I went to X's House I found his house found his house filled with CDs.",
+        "Recently X invited me to celebrate a recent achievemnt he completed.",
+        "I always find X online playing league of heroes, he has so many hours in that game."
+      ]
+    },
+    {
+      "interestName": "Exercise",
+      "clues": [
+        "X always goes out.",
+        "X invited me to go outside to the park.",
+        "is pretty fit.",
+        "I always see X in the gym at Noon."
+      ]
+    },
+    {
+      "interestName": "Music",
+      "clues": [
+        "X takes long showers.",
+        "X likes to dance.",
+        "X goes to band class in the afternoon.",
+        "X never turns off their music, its always too loud."
+      ]
+    },
+    {
+      "interestName": "Art",
+      "clues": [
+        "X is always writing on paper.",
+        "Everytime we speak to each other X always brings up the messy room creative mind quote.",
+        "Every wednesday X always goes shopping.",
+        "X is always drawing."
+      ]
+    },
+    {
+      "interestName": "Science",
+      "clues": [
+        "X is very educated.",
+        "I got invited by X to stargaze once.",
+        "X normally stays after school.",
+        "Did you hear that X got 1st place in the science project contest."
+      ]
+    },
+    {
+      "interestName": "Figurine Painting",
+      "clues": [
+        "X normally stays indoors to perfect their hobby.",
+        "X has a bag filled with bottles of weird named paint everytime I see X outside.",
+        "Every wednesday X always goes shopping.",
+        "X told me about that time X won the table top minature war tournament."
+      ]
+    },
+    {
+      "interestName": "SciFi",
+      "clues": [
+        "X normally stays indoors to perfect their hobby.",
+        "X knows a lot about science and outer space.",
+        "X invited me to watch a whole marathon of favorite movies.",
+        "I watched a movie with X they knew every single detail about it like if X had a PHD on that movie."
+      ]
+    },
+    {
+      "interestName": "Pets",
+      "clues": [
+        "I asked X to travel with us to Italy and Couldnt.",
+        "X likes to stay nearby their house.",
+        "X always goes out.",
+        "X never goes on big vacations because X always misses their pet too much."
+      ]
+    },
+    {
+      "interestName": "Drinking",
+      "clues": [
+        "X always goes out.",
+        "Normally X goes out at night.",
+        "X gets a hungover pretty often.",
+        "I found X last night I went to the pub, he always goes there every saturday."
+      ]
+    },
+    {
+      "interestName": "Food",
+      "clues": [
+        "X always goes out.",
+        "Every Wednesday X always goes shopping.",
+        "X sure knows how to make a great feast.",
+        "X told me to try this dish, they have an amazing taste."
       ]
     },
 
