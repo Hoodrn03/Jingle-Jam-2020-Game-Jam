@@ -50,6 +50,12 @@ public class Current_Location : MonoBehaviour
     [SerializeField]
     GameObject m_BarPrefab;
 
+    [SerializeField]
+    GameObject m_RestaurantPrefab;
+
+    [SerializeField]
+    GameObject m_ParkPrefab;
+
     public void m_LoadLevel(string mapName)
     {
         m_sCurrentLocation = mapName; 
@@ -142,6 +148,14 @@ public class Current_Location : MonoBehaviour
             {
                 case "Bar":
                     l_TempData.l_MapPrefab = m_BarPrefab; 
+                    break;
+
+                case "Restaurant":
+                    l_TempData.l_MapPrefab = m_RestaurantPrefab;
+                    break;
+
+                case "Park":
+                    l_TempData.l_MapPrefab = m_ParkPrefab;
                     break;
 
                 default:

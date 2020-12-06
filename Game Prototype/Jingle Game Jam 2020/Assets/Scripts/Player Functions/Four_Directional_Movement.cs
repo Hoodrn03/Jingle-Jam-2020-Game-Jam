@@ -17,6 +17,8 @@ public class Four_Directional_Movement : MonoBehaviour
     [SerializeField]
     bool m_bCollided = false;
 
+    bool m_bFacingLeft, m_bFacingRight = true; 
+
     #endregion
 
     #region Member Functions 
@@ -39,9 +41,8 @@ public class Four_Directional_Movement : MonoBehaviour
         // Apply movement.
 
         gameObject.transform.position = gameObject.transform.position + new Vector3(l_fX, l_fY, 0); 
-    }
 
-    
+    }
 
     #endregion
 }

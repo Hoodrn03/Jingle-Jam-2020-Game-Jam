@@ -108,7 +108,10 @@ public class NPC_Controller_Script : MonoBehaviour
     /// This will load the list of interests within the game at the start of the game. 
     /// </summary>
     [SerializeField]
-    Interests m_InteretsLoader; 
+    Interests m_InteretsLoader;
+
+    [SerializeField]
+    List<Sprite> m_ListOfSprites; 
 
     #endregion
 
@@ -305,6 +308,11 @@ public class NPC_Controller_Script : MonoBehaviour
         }
 
         return l_sReturnClue; 
+    }
+
+    public Sprite m_GetRandomSprite()
+    {
+        return m_ListOfSprites[Random.Range(0, m_ListOfSprites.Count - 1)]; 
     }
 
     #endregion

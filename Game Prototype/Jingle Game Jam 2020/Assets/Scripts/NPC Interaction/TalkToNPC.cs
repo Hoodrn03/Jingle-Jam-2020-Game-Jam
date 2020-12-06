@@ -43,7 +43,9 @@ public class TalkToNPC : MonoBehaviour
         {
             m_bPlayerWithinRange = true;
 
-            m_TalkScreen.GetComponentInChildren<Select_Player_Sprite>().m_SelectSprite(); 
+            m_TalkScreen.GetComponentInChildren<Select_Player_Sprite>().m_SelectSprite();
+
+            m_TalkScreen.GetComponentInChildren<Image>().sprite = m_NPCSprite;
         }
     }
 

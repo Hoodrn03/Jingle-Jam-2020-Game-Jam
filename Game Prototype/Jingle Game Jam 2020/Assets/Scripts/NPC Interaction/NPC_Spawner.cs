@@ -42,6 +42,8 @@ public class NPC_Spawner : MonoBehaviour
 
                 l_NewNPC.name = m_NPCManager.GetComponent<NPC_Controller_Script>().m_GenerateRandomName();
 
+                l_NewNPC.GetComponent<TalkToNPC>().m_AssignSprite(m_NPCManager.GetComponent<NPC_Controller_Script>().m_GetRandomSprite()); 
+
                 l_NewNPC.GetComponent<TalkToNPC>().m_AssignClue(m_NPCManager.GetComponent<NPC_Controller_Script>().m_GenerateClue());
 
                 l_NewNPC.GetComponent<TalkToNPC>().m_AssignTalkScreen(m_InterfaceLinker.GetComponent<Interface_Linker>().m_GetChatMenu());

@@ -16,6 +16,8 @@ ScriptsOnlyBuild:
     - Open_Inventory
     - Pick_Up_Gift
     - Player_Spawn
+    - Reload_Game
+    - Select_Player_Sprite
     - TalkToNPC
     - Target_Person_Info
     Unity.2D.Tilemap.Editor.dll:
@@ -65,53 +67,57 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 11746}
+      Script: {instanceID: 11732}
     - Class: 114
-      Script: {instanceID: 11938}
+      Script: {instanceID: 11924}
     - Class: 114
-      Script: {instanceID: 11978}
+      Script: {instanceID: 11964}
     - Class: 114
-      Script: {instanceID: 12016}
+      Script: {instanceID: 12002}
     - Class: 114
-      Script: {instanceID: 12124}
+      Script: {instanceID: 12110}
     - Class: 114
-      Script: {instanceID: 12196}
+      Script: {instanceID: 12182}
     - Class: 114
-      Script: {instanceID: 12314}
+      Script: {instanceID: 12300}
     - Class: 114
-      Script: {instanceID: 12316}
+      Script: {instanceID: 12302}
     - Class: 114
-      Script: {instanceID: 12432}
+      Script: {instanceID: 12418}
     - Class: 114
-      Script: {instanceID: 12452}
+      Script: {instanceID: 12438}
     - Class: 114
-      Script: {instanceID: 12636}
+      Script: {instanceID: 12622}
     - Class: 114
-      Script: {instanceID: 12708}
+      Script: {instanceID: 12694}
     - Class: 114
-      Script: {instanceID: 12924}
+      Script: {instanceID: 12750}
+    - Class: 114
+      Script: {instanceID: 12912}
+    - Class: 114
+      Script: {instanceID: 12928}
     - Class: 114
       Script: {instanceID: 12940}
     - Class: 114
-      Script: {instanceID: 13044}
+      Script: {instanceID: 13034}
     - Class: 114
-      Script: {instanceID: 13510}
+      Script: {instanceID: 13500}
     - Class: 114
-      Script: {instanceID: 13516}
+      Script: {instanceID: 13506}
     - Class: 114
-      Script: {instanceID: 13798}
+      Script: {instanceID: 13788}
     - Class: 114
-      Script: {instanceID: 13858}
+      Script: {instanceID: 13848}
     - Class: 114
-      Script: {instanceID: 13900}
+      Script: {instanceID: 13890}
     - Class: 114
-      Script: {instanceID: 13920}
+      Script: {instanceID: 13910}
     - Class: 114
-      Script: {instanceID: 13962}
+      Script: {instanceID: 13952}
     - Class: 114
-      Script: {instanceID: 14002}
+      Script: {instanceID: 13992}
     - Class: 114
-      Script: {instanceID: 15556}
+      Script: {instanceID: 35522}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -249,7 +255,7 @@ ScriptsOnlyBuild:
     className: SignalAsset
   - hash:
       serializedVersion: 2
-      Hash: 7bfbc7e5bde358286f1ddd49aca4e0e6
+      Hash: 039646eb6eed8d78b93d9219558847bc
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: TalkToNPC
@@ -327,7 +333,7 @@ ScriptsOnlyBuild:
     className: Shadow
   - hash:
       serializedVersion: 2
-      Hash: 9031614fe80d3987cb3d712fb765526d
+      Hash: 9f713e9947a0e86f3521d42e0f736ab9
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Game_Time_Management
@@ -399,6 +405,12 @@ ScriptsOnlyBuild:
     className: SignalTrack
   - hash:
       serializedVersion: 2
+      Hash: d7d369089550f45b2336875a1064c1be
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Get_Score
+  - hash:
+      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
@@ -427,6 +439,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: Button
+  - hash:
+      serializedVersion: 2
+      Hash: 0d49de407d6569fd713b6aa974f967c8
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Select_Player_Sprite
   - hash:
       serializedVersion: 2
       Hash: c1d728126ff1918728036c59106d32b2
@@ -513,7 +531,7 @@ ScriptsOnlyBuild:
     className: GraphicRaycaster
   - hash:
       serializedVersion: 2
-      Hash: ba3e3180a2b2e092c18be98c4a3b5319
+      Hash: b273c0d58af6950d8c4b2a2e8d6ff0cd
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: NPC_Controller_Script
@@ -537,7 +555,7 @@ ScriptsOnlyBuild:
     className: TMP_StyleSheet
   - hash:
       serializedVersion: 2
-      Hash: 3e2173206ce99979cad9ab495d57eb39
+      Hash: 08ce79a19faac0f326c88dcf63b71b73
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Current_Location
@@ -663,12 +681,12 @@ ScriptsOnlyBuild:
     className: PlayableTrack
   - hash:
       serializedVersion: 2
-      Hash: 8a54a4b61df98b425e611a9bfbd7f7ff
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
-    className: Get_Score
+    className: Reload_Game
   platform: 5
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
-  playerPath: D:/Github Documents/Jingle-Jam-2020-Game-Jam/Current Build v0.0.2/Jingle
+  playerPath: D:/Github Documents/Jingle-Jam-2020-Game-Jam/Current Build v0.1.1/Jingle
     Game Jam 2020.exe
