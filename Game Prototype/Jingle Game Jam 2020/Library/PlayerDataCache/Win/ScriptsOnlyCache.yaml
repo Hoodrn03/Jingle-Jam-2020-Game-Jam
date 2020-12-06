@@ -79,57 +79,57 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 11732}
+      Script: {instanceID: 11728}
     - Class: 114
-      Script: {instanceID: 11924}
+      Script: {instanceID: 11920}
     - Class: 114
-      Script: {instanceID: 11964}
+      Script: {instanceID: 11960}
     - Class: 114
-      Script: {instanceID: 12002}
+      Script: {instanceID: 11998}
     - Class: 114
-      Script: {instanceID: 12018}
+      Script: {instanceID: 12014}
     - Class: 114
-      Script: {instanceID: 12112}
+      Script: {instanceID: 12108}
     - Class: 114
-      Script: {instanceID: 12184}
+      Script: {instanceID: 12180}
     - Class: 114
-      Script: {instanceID: 12302}
+      Script: {instanceID: 12298}
     - Class: 114
-      Script: {instanceID: 12304}
+      Script: {instanceID: 12300}
     - Class: 114
-      Script: {instanceID: 12420}
+      Script: {instanceID: 12416}
     - Class: 114
-      Script: {instanceID: 12440}
+      Script: {instanceID: 12436}
     - Class: 114
-      Script: {instanceID: 12624}
+      Script: {instanceID: 12620}
     - Class: 114
-      Script: {instanceID: 12698}
+      Script: {instanceID: 12692}
     - Class: 114
-      Script: {instanceID: 12754}
+      Script: {instanceID: 12748}
     - Class: 114
-      Script: {instanceID: 12916}
+      Script: {instanceID: 12910}
     - Class: 114
-      Script: {instanceID: 12932}
+      Script: {instanceID: 12926}
     - Class: 114
-      Script: {instanceID: 12944}
+      Script: {instanceID: 12938}
     - Class: 114
-      Script: {instanceID: 13038}
+      Script: {instanceID: 13032}
+    - Class: 114
+      Script: {instanceID: 13498}
     - Class: 114
       Script: {instanceID: 13504}
     - Class: 114
-      Script: {instanceID: 13510}
+      Script: {instanceID: 13786}
     - Class: 114
-      Script: {instanceID: 13792}
+      Script: {instanceID: 13846}
     - Class: 114
-      Script: {instanceID: 13852}
+      Script: {instanceID: 13888}
     - Class: 114
-      Script: {instanceID: 13894}
+      Script: {instanceID: 13908}
     - Class: 114
-      Script: {instanceID: 13914}
+      Script: {instanceID: 13950}
     - Class: 114
-      Script: {instanceID: 13956}
-    - Class: 114
-      Script: {instanceID: 13996}
+      Script: {instanceID: 13990}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -403,12 +403,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
     className: TMP_Asset
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: Walking_Anim
   - hash:
       serializedVersion: 2
       Hash: 040dd48e3a027d5424519a5fa2009df4
@@ -706,5 +700,5 @@ ScriptsOnlyBuild:
   platform: 5
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
-  playerPath: D:/Github Documents/Jingle-Jam-2020-Game-Jam/Current Build v0.1.3/Jingle
+  playerPath: D:/Github Documents/Jingle-Jam-2020-Game-Jam/Current Build v0.1.5/Jingle
     Game Jam 2020.exe

@@ -19,8 +19,6 @@ public class Player_Spawn : MonoBehaviour
 
     public void m_SpawnPlayer()
     {
-        m_PlayerSpawnPoint = GameObject.FindGameObjectWithTag("Player Spawn Point");
-
         if (m_PlayerSpawnPoint != null)
         {
             m_PlayerObj.transform.position = m_PlayerSpawnPoint.transform.position; 
@@ -29,8 +27,6 @@ public class Player_Spawn : MonoBehaviour
 
     public void m_SpawnPlayer(GameObject objToSpawn)
     {
-        m_PlayerSpawnPoint = GameObject.FindGameObjectWithTag("Player Spawn Point");
-
         if (m_PlayerSpawnPoint != null)
         {
             objToSpawn.transform.position = m_PlayerSpawnPoint.transform.position;
